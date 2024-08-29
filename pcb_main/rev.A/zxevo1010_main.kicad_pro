@@ -184,12 +184,11 @@
       ],
       "track_widths": [
         0.0,
-        0.2,
-        0.4,
+        0.15,
+        0.25,
+        0.3,
         0.6,
-        0.8,
         1.0,
-        1.2,
         1.5,
         2.0,
         2.5,
@@ -231,7 +230,7 @@
           "drill": 0.3
         },
         {
-          "diameter": 0.7,
+          "diameter": 0.8,
           "drill": 0.4
         }
       ],
@@ -485,7 +484,7 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.15,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
@@ -502,7 +501,7 @@
         "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.25,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
@@ -519,7 +518,7 @@
         "name": "RAM",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
+        "track_width": 0.15,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
