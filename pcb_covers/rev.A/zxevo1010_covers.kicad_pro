@@ -12,7 +12,7 @@
         "copper_text_size_h": 1.5,
         "copper_text_size_v": 1.5,
         "copper_text_thickness": 0.3,
-        "copper_text_upright": true,
+        "copper_text_upright": false,
         "courtyard_line_width": 0.05,
         "dimension_precision": 1,
         "dimension_units": 3,
@@ -29,27 +29,27 @@
         "fab_text_size_h": 1.0,
         "fab_text_size_v": 1.0,
         "fab_text_thickness": 0.15,
-        "fab_text_upright": true,
+        "fab_text_upright": false,
         "other_line_width": 0.15,
         "other_text_italic": false,
         "other_text_size_h": 1.0,
         "other_text_size_v": 1.0,
         "other_text_thickness": 0.15,
-        "other_text_upright": true,
+        "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 0.5,
-          "width": 0.5
+          "drill": 0.762,
+          "height": 1.524,
+          "width": 1.524
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
-        "silk_text_size_h": 0.8,
-        "silk_text_size_v": 1.1,
-        "silk_text_thickness": 0.14,
-        "silk_text_upright": true,
+        "silk_text_size_h": 1.0,
+        "silk_text_size_v": 1.0,
+        "silk_text_thickness": 0.15,
+        "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.2
+          "min_clearance": 0.508
         }
       },
       "diff_pair_dimensions": [
@@ -82,7 +82,7 @@
         "hole_near_hole": "error",
         "holes_co_located": "warning",
         "invalid_outline": "error",
-        "isolated_copper": "warning",
+        "isolated_copper": "ignore",
         "item_on_disabled_layer": "error",
         "items_not_allowed": "error",
         "length_out_of_range": "error",
@@ -90,7 +90,7 @@
         "lib_footprint_mismatch": "warning",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
-        "missing_courtyard": "warning",
+        "missing_courtyard": "ignore",
         "missing_footprint": "warning",
         "net_conflict": "warning",
         "npth_inside_courtyard": "warning",
@@ -99,7 +99,7 @@
         "shorting_items": "error",
         "silk_edge_clearance": "ignore",
         "silk_over_copper": "warning",
-        "silk_overlap": "ignore",
+        "silk_overlap": "error",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
         "starved_thermal": "error",
@@ -113,27 +113,28 @@
         "unconnected_items": "error",
         "unresolved_variable": "error",
         "via_dangling": "warning",
+        "zone_has_empty_net": "error",
         "zones_intersect": "error"
       },
       "rules": {
         "allow_blind_buried_vias": false,
         "allow_microvias": false,
         "max_error": 0.005,
-        "min_clearance": 0.15,
+        "min_clearance": 0.2,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.254,
-        "min_hole_clearance": 0.3,
-        "min_hole_to_hole": 0.3,
+        "min_copper_edge_clearance": 0.4,
+        "min_hole_clearance": 0.0,
+        "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
-        "min_resolved_spokes": 0,
+        "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
-        "min_text_height": 0.6,
+        "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.15,
-        "min_via_annular_width": 0.13,
-        "min_via_diameter": 0.6,
+        "min_track_width": 0.2,
+        "min_via_annular_width": 0.05,
+        "min_via_diameter": 0.4,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
         "solder_mask_to_copper_clearance": 0.0,
@@ -183,39 +184,30 @@
         }
       ],
       "track_widths": [
-        0.0,
-        0.15,
-        0.25,
-        0.3,
-        0.6,
-        1.0,
-        1.5,
-        2.0,
-        2.5,
-        3.0
+        0.0
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
-          "corner_radius_percentage": 100,
+          "corner_radius_percentage": 80,
           "corner_style": 1,
           "max_amplitude": 1.0,
-          "min_amplitude": 0.1,
+          "min_amplitude": 0.2,
           "single_sided": false,
-          "spacing": 0.6
+          "spacing": 1.0
         },
         "diff_pair_skew_defaults": {
-          "corner_radius_percentage": 100,
+          "corner_radius_percentage": 80,
           "corner_style": 1,
           "max_amplitude": 1.0,
-          "min_amplitude": 0.1,
+          "min_amplitude": 0.2,
           "single_sided": false,
           "spacing": 0.6
         },
         "single_track_defaults": {
-          "corner_radius_percentage": 100,
+          "corner_radius_percentage": 80,
           "corner_style": 1,
           "max_amplitude": 1.0,
-          "min_amplitude": 0.1,
+          "min_amplitude": 0.2,
           "single_sided": false,
           "spacing": 0.6
         }
@@ -224,14 +216,6 @@
         {
           "diameter": 0.0,
           "drill": 0.0
-        },
-        {
-          "diameter": 0.6,
-          "drill": 0.3
-        },
-        {
-          "diameter": 0.8,
-          "drill": 0.4
         }
       ],
       "zones_allow_external_fillets": false,
@@ -429,6 +413,7 @@
     "rule_severities": {
       "bus_definition_conflict": "error",
       "bus_entry_needed": "error",
+      "bus_label_syntax": "error",
       "bus_to_bus_conflict": "error",
       "bus_to_net_conflict": "error",
       "conflicting_netclasses": "error",
@@ -447,7 +432,7 @@
       "missing_power_pin": "error",
       "missing_unit": "warning",
       "multiple_net_names": "warning",
-      "net_not_bus_member": "ignore",
+      "net_not_bus_member": "warning",
       "no_connect_connected": "warning",
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
@@ -467,28 +452,11 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "zxevo1010_main.kicad_pro",
+    "filename": "zxevo1010_covers.kicad_pro",
     "version": 1
   },
   "net_settings": {
     "classes": [
-      {
-        "bus_width": 6,
-        "clearance": 0.15,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "Default",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.15,
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
-        "wire_width": 6
-      },
       {
         "bus_width": 6,
         "clearance": 0.2,
@@ -498,29 +466,12 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "Power",
+        "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
-        "wire_width": 6
-      },
-      {
-        "bus_width": 6,
-        "clearance": 0.15,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
-        "name": "RAM",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.15,
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
         "wire_width": 6
       }
     ],
@@ -529,16 +480,7 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": [
-      {
-        "netclass": "Power",
-        "pattern": "+*"
-      },
-      {
-        "netclass": "RAM",
-        "pattern": "/RAM*"
-      }
-    ]
+    "netclass_patterns": []
   },
   "pcbnew": {
     "last_paths": {
@@ -654,8 +596,8 @@
       "model_mode": 0,
       "workbook_filename": ""
     },
-    "page_layout_descr_file": "${MYLIBPATH}\\mykicadws2.kicad_wks",
-    "plot_directory": "out/",
+    "page_layout_descr_file": "",
+    "plot_directory": "",
     "spice_adjust_passive_values": false,
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -668,7 +610,7 @@
   },
   "sheets": [
     [
-      "895fa090-e1df-4200-a112-cb7c4b9368aa",
+      "e9a99ccc-fbc9-4c30-a43d-c2d23611a456",
       "Root"
     ]
   ],
