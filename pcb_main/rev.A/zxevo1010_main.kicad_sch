@@ -37766,7 +37766,7 @@
 	)
 	(text "Tape"
 		(exclude_from_sim no)
-		(at 209.296 405.638 0)
+		(at 200.406 405.638 0)
 		(effects
 			(font
 				(size 2 2)
@@ -57496,7 +57496,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_QFP:LQFP-208_28x28mm_P0.5mm"
+		(property "Footprint" "PCM_Package_QFP_AKL:LQFP-208_28x28mm_P0.5mm"
 			(at 62.23 145.415 0)
 			(effects
 				(font
@@ -62494,71 +62494,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 382.27 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "916ca357-3d76-4adf-acee-eb4f9fdb4d82")
-		(property "Reference" "#PWR078"
-			(at 382.27 54.61 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V_FUSE"
-			(at 383.794 46.736 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 382.27 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 382.27 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 382.27 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "af1d1c36-531f-49b2-ba52-141b5d98df31")
-		)
-		(instances
-			(project "zxevo1010"
-				(path "/895fa090-e1df-4200-a112-cb7c4b9368aa"
-					(reference "#PWR078")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 318.77 481.33 0)
 		(unit 1)
@@ -66810,6 +66745,71 @@
 			(project "zxevo1010_main"
 				(path "/895fa090-e1df-4200-a112-cb7c4b9368aa"
 					(reference "#PWR0158")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 382.27 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ba04964c-196f-4492-bbba-46d6b281fdf3")
+		(property "Reference" "#PWR078"
+			(at 382.27 54.61 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V_JOYSTICK"
+			(at 382.27 46.99 0)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 382.27 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 382.27 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 382.27 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7360b3f0-02b4-4df9-b638-f0572b1234db")
+		)
+		(instances
+			(project "zxevo1010_main"
+				(path "/895fa090-e1df-4200-a112-cb7c4b9368aa"
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
