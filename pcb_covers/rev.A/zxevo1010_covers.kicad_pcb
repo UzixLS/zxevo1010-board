@@ -1518,6 +1518,28 @@
 		(uuid "72031938-0c10-4f19-a164-80d5d8129715")
 	)
 	(gr_circle
+		(center 198.75 76.75)
+		(end 199.55 76.75)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Mask")
+		(uuid "3f9a9407-f948-43e0-aaa4-79c8b9d64a37")
+	)
+	(gr_circle
+		(center 205.1 76.75)
+		(end 205.9 76.75)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Mask")
+		(uuid "78fc60aa-1aa0-4c13-9e98-431fd7008887")
+	)
+	(gr_circle
 		(center 168.2 72)
 		(end 174.2 72)
 		(stroke

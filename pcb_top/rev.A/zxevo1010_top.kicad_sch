@@ -40185,14 +40185,14 @@
 			)
 		)
 		(property "Value" "Z84C0020FEC"
-			(at 95.885 243.205 0)
+			(at 96.266 241.808 0)
 			(effects
 				(font
 					(size 1 1)
 				)
 			)
 		)
-		(property "Footprint" "my:TQFP-44_14x14mm_P0.8mm"
+		(property "Footprint" "my:Z80_FEC_VEC"
 			(at 85.09 269.24 0)
 			(effects
 				(font
@@ -40217,6 +40217,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "ValueAlt" "Z84C0020VEC"
+			(at 96.266 243.84 0)
+			(effects
+				(font
+					(size 1 1)
+				)
 			)
 		)
 		(pin "1"

@@ -54643,6 +54643,7 @@
 	(symbol
 		(lib_id "Device:Crystal")
 		(at 204.47 129.54 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -59688,7 +59689,6 @@
 	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 345.44 307.34 90)
-		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -59704,7 +59704,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 341.63 309.2449 90)
+			(at 341.63 305.4351 90)
 			(effects
 				(font
 					(size 1 1)
@@ -65057,7 +65057,6 @@
 	(symbol
 		(lib_id "Switch:SW_Push")
 		(at 335.28 307.34 90)
-		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -65073,7 +65072,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 331.47 309.2449 90)
+			(at 331.47 305.4351 90)
 			(effects
 				(font
 					(size 1 1)
