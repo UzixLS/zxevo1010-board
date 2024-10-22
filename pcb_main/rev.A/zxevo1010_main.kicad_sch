@@ -37173,7 +37173,7 @@
 		)
 		(uuid "0b0fcdea-03d7-4c57-9d7f-7a75c70005c8")
 	)
-	(label "R10"
+	(label "RD10"
 		(at 209.55 58.42 180)
 		(fields_autoplaced yes)
 		(effects
@@ -37756,7 +37756,7 @@
 		)
 		(uuid "25e33c5b-bfe7-48f7-a785-302f608b51d9")
 	)
-	(label "R12"
+	(label "RD12"
 		(at 209.55 63.5 180)
 		(fields_autoplaced yes)
 		(effects
@@ -38438,7 +38438,7 @@
 		)
 		(uuid "451c114b-59a2-4343-977a-91c07aef3997")
 	)
-	(label "R11"
+	(label "RD11"
 		(at 260.35 60.96 180)
 		(fields_autoplaced yes)
 		(effects
@@ -39175,7 +39175,7 @@
 		)
 		(uuid "5d62410b-e967-4e31-a0ba-59edd78470fd")
 	)
-	(label "R11"
+	(label "RD11"
 		(at 142.24 219.71 180)
 		(fields_autoplaced yes)
 		(effects
@@ -40561,7 +40561,7 @@
 		)
 		(uuid "996a7b65-29e5-4e09-ae9a-23f86b2e1f94")
 	)
-	(label "R12"
+	(label "RD12"
 		(at 260.35 63.5 180)
 		(fields_autoplaced yes)
 		(effects
@@ -41001,7 +41001,7 @@
 		)
 		(uuid "ab04b281-b480-4881-b507-70ebf758414f")
 	)
-	(label "R11"
+	(label "RD11"
 		(at 209.55 60.96 180)
 		(fields_autoplaced yes)
 		(effects
@@ -41100,7 +41100,7 @@
 		)
 		(uuid "ad826008-5c26-4cd6-bb56-94c12df9416b")
 	)
-	(label "R12"
+	(label "RD12"
 		(at 142.24 224.79 180)
 		(fields_autoplaced yes)
 		(effects
@@ -42992,7 +42992,7 @@
 		)
 		(uuid "f8b140f2-dbdc-4b12-94ec-47483dd0666f")
 	)
-	(label "R10"
+	(label "RD10"
 		(at 260.35 58.42 180)
 		(fields_autoplaced yes)
 		(effects
@@ -43091,7 +43091,7 @@
 		)
 		(uuid "fba02b49-d3af-40ff-9223-ef53c09f037e")
 	)
-	(label "R10"
+	(label "RD10"
 		(at 142.24 214.63 180)
 		(fields_autoplaced yes)
 		(effects
