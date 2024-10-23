@@ -1492,6 +1492,108 @@
 				)
 			)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector_Audio:AudioJack4"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -19207,126 +19309,6 @@
 				)
 			)
 		)
-		(symbol "power:+12V"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+12V"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+12V\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+12V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+12V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:+1V8"
 			(power)
 			(pin_numbers hide)
@@ -21731,6 +21713,10 @@
 	(no_connect
 		(at 62.23 455.93)
 		(uuid "08e7e514-d545-40a4-ace4-1d78edc5ad27")
+	)
+	(no_connect
+		(at 486.41 96.52)
+		(uuid "0962416f-4221-42bd-8e69-4bf84e4b9be1")
 	)
 	(no_connect
 		(at 341.63 374.65)
@@ -32349,7 +32335,7 @@
 		(uuid "10e9a6aa-c1d4-4294-9d6a-d0a39459e9a1")
 	)
 	(label "MEMA15"
-		(at 247.65 246.38 0)
+		(at 247.65 243.84 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -32481,7 +32467,7 @@
 		(uuid "1747c0d5-4a0d-481a-86fe-dcb82455f3cc")
 	)
 	(label "A3"
-		(at 172.72 193.04 0)
+		(at 172.72 198.12 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -32613,7 +32599,7 @@
 		(uuid "20f31c91-c231-49cb-b63c-2f3547434754")
 	)
 	(label "RA1"
-		(at 215.9 198.12 180)
+		(at 215.9 193.04 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -32844,7 +32830,7 @@
 		(uuid "2b43ce8b-e8d2-406b-9e62-cddf4885087a")
 	)
 	(label "MEMA15"
-		(at 196.85 281.94 0)
+		(at 196.85 284.48 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -33196,7 +33182,7 @@
 		(uuid "39d0cfe9-8d0d-47c2-932b-8bea8b520a08")
 	)
 	(label "RA3"
-		(at 215.9 193.04 180)
+		(at 215.9 198.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -33306,7 +33292,7 @@
 		(uuid "40d0ab25-1760-4886-8f5a-f2ebcd94a85c")
 	)
 	(label "A0"
-		(at 172.72 200.66 0)
+		(at 172.72 190.5 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -33350,7 +33336,7 @@
 		(uuid "426de0ff-53bb-4172-a551-c5dfa216bb45")
 	)
 	(label "A1"
-		(at 172.72 198.12 0)
+		(at 172.72 193.04 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -33779,7 +33765,7 @@
 		(uuid "56aab211-d54f-4a00-b8be-5d71a5e577fe")
 	)
 	(label "MEMA16"
-		(at 196.85 284.48 0)
+		(at 196.85 281.94 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -34659,7 +34645,7 @@
 		(uuid "83ca0006-709a-4a76-a825-9b3917e6b6e7")
 	)
 	(label "MEMA16"
-		(at 247.65 243.84 0)
+		(at 247.65 246.38 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -35462,7 +35448,7 @@
 		(uuid "a4d2453a-f4d4-4b36-b3d1-e3068b068765")
 	)
 	(label "RA4"
-		(at 215.9 190.5 180)
+		(at 215.9 200.66 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -37266,7 +37252,7 @@
 		(uuid "f2488cce-1410-4d98-a759-3a99609c1172")
 	)
 	(label "A4"
-		(at 172.72 190.5 0)
+		(at 172.72 200.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -37497,7 +37483,7 @@
 		(uuid "fc4f38d2-38f0-4791-a4d2-ed07ca3c3f6f")
 	)
 	(label "RA0"
-		(at 215.9 200.66 180)
+		(at 215.9 190.5 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -41761,6 +41747,71 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 193.04 433.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "22b3e10c-7832-4e97-af32-95e4d555bd81")
+		(property "Reference" "TP1"
+			(at 186.055 433.07 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 189.738 429.895 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 193.04 427.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 193.04 427.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 193.04 433.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2ff74c09-7208-4a5d-9759-cbfa96ad40bd")
+		)
+		(instances
+			(project "zxevo1010_top"
+				(path "/895fa090-e1df-4200-a112-cb7c4b9368aa"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 402.59 295.91 270)
 		(mirror x)
@@ -42640,7 +42691,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 209.8548 561.34 0)
 			(effects
 				(font
@@ -42947,72 +42998,6 @@
 			(project "zxevo1010_top"
 				(path "/895fa090-e1df-4200-a112-cb7c4b9368aa"
 					(reference "C22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+12V")
-		(at 486.41 96.52 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3098ce00-a6f8-44dc-8c77-c9784cbeb539")
-		(property "Reference" "#PWR064"
-			(at 482.6 96.52 0)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 489.585 96.52 90)
-			(effects
-				(font
-					(size 1 1)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 486.41 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 486.41 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 486.41 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "959243a6-d34a-4b10-b5ed-20c3a01aae62")
-		)
-		(instances
-			(project "zxevo1010"
-				(path "/895fa090-e1df-4200-a112-cb7c4b9368aa"
-					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -45799,7 +45784,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 197.1548 561.34 0)
 			(effects
 				(font
@@ -45866,7 +45851,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 184.4548 561.34 0)
 			(effects
 				(font
@@ -46456,7 +46441,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 171.7548 561.34 0)
 			(effects
 				(font
@@ -49022,7 +49007,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 216.2048 561.34 0)
 			(effects
 				(font
@@ -50964,7 +50949,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 277.1648 561.34 0)
 			(effects
 				(font
@@ -53233,7 +53218,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 296.2148 561.34 0)
 			(effects
 				(font
@@ -54357,7 +54342,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 315.2648 561.34 0)
 			(effects
 				(font
@@ -55020,7 +55005,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 190.8048 561.34 0)
 			(effects
 				(font
@@ -55820,7 +55805,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 308.9148 561.34 0)
 			(effects
 				(font
@@ -56773,7 +56758,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 270.8148 561.34 0)
 			(effects
 				(font
@@ -57540,7 +57525,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 203.5048 561.34 0)
 			(effects
 				(font
@@ -60249,7 +60234,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 283.5148 561.34 0)
 			(effects
 				(font
@@ -60896,7 +60881,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 289.8648 561.34 0)
 			(effects
 				(font
@@ -61206,6 +61191,71 @@
 			(project ""
 				(path "/895fa090-e1df-4200-a112-cb7c4b9368aa"
 					(reference "Q2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 193.04 369.57 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "d3ab38aa-9f23-4755-a506-46c972984b1f")
+		(property "Reference" "TP2"
+			(at 186.055 369.57 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 189.738 366.395 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 193.04 364.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 193.04 364.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 193.04 369.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dcf7a500-4d28-46b3-80d7-0cb33e787e47")
+		)
+		(instances
+			(project "zxevo1010_top"
+				(path "/895fa090-e1df-4200-a112-cb7c4b9368aa"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -63226,7 +63276,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 178.1048 561.34 0)
 			(effects
 				(font
@@ -64868,7 +64918,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 302.5648 561.34 0)
 			(effects
 				(font
@@ -65911,6 +65961,71 @@
 			(project "zxevo1010_top"
 				(path "/895fa090-e1df-4200-a112-cb7c4b9368aa"
 					(reference "#PWR0173")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 243.84 417.83 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "feabddfa-2d71-4dff-960a-6e6bccbe592f")
+		(property "Reference" "TP3"
+			(at 250.825 417.83 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 247.142 421.005 90)
+			(effects
+				(font
+					(size 1 1)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 243.84 422.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 243.84 422.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 243.84 417.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "04eb1bac-0781-4369-8fb4-fc61d556b2fd")
+		)
+		(instances
+			(project "zxevo1010_top"
+				(path "/895fa090-e1df-4200-a112-cb7c4b9368aa"
+					(reference "TP3")
 					(unit 1)
 				)
 			)
