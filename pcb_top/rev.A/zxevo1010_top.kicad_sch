@@ -31906,7 +31906,7 @@
 		(uuid "027f5a2b-8a34-4bfe-b1d8-9473086fd1cc")
 	)
 	(label "RA11"
-		(at 196.85 271.78 0)
+		(at 196.85 269.24 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -31961,7 +31961,7 @@
 		(uuid "0405e327-8d58-43bb-a7b6-4a77875c33ba")
 	)
 	(label "RD2"
-		(at 294.64 256.54 180)
+		(at 294.64 251.46 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -32038,7 +32038,7 @@
 		(uuid "06fd45a6-3ef9-442d-a361-4105430fecb7")
 	)
 	(label "RD5"
-		(at 294.64 248.92 180)
+		(at 294.64 256.54 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -32148,7 +32148,7 @@
 		(uuid "096f0f06-af79-4053-adeb-c16b61d0792a")
 	)
 	(label "RA8"
-		(at 247.65 287.02 0)
+		(at 247.65 269.24 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -32269,7 +32269,7 @@
 		(uuid "0ecc5678-4937-481f-a2c1-59218ba920f0")
 	)
 	(label "RA9"
-		(at 196.85 266.7 0)
+		(at 196.85 261.62 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -32335,7 +32335,7 @@
 		(uuid "10e9a6aa-c1d4-4294-9d6a-d0a39459e9a1")
 	)
 	(label "MEMA15"
-		(at 247.65 243.84 0)
+		(at 247.65 248.92 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -32379,7 +32379,7 @@
 		(uuid "11ddc879-182d-41c9-b5d3-d9a07c5fff41")
 	)
 	(label "RD3"
-		(at 243.84 251.46 180)
+		(at 243.84 256.54 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -32401,13 +32401,13 @@
 		(uuid "130e2247-91d9-458d-95f6-85d846d22847")
 	)
 	(label "MEMA21"
-		(at 243.84 288.29 180)
+		(at 196.85 287.02 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "136b5c70-bb2e-4f56-897f-279dacf1af1e")
 	)
@@ -32665,7 +32665,7 @@
 		(uuid "2445e036-5367-4798-a1ee-58dac16b8b7e")
 	)
 	(label "RA13"
-		(at 247.65 251.46 0)
+		(at 247.65 287.02 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -32775,7 +32775,7 @@
 		(uuid "2a1d74c2-680d-4f10-bed6-3fca021dc313")
 	)
 	(label "RD3"
-		(at 294.64 254 180)
+		(at 294.64 248.92 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -32830,7 +32830,7 @@
 		(uuid "2b43ce8b-e8d2-406b-9e62-cddf4885087a")
 	)
 	(label "MEMA15"
-		(at 196.85 284.48 0)
+		(at 196.85 279.4 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -32951,7 +32951,7 @@
 		(uuid "328f62c6-6009-446e-95bd-683e39d8f48a")
 	)
 	(label "RA13"
-		(at 196.85 276.86 0)
+		(at 196.85 264.16 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -32995,13 +32995,13 @@
 		(uuid "3342564f-a87b-48e3-aa3a-39a557c571e5")
 	)
 	(label "RA6"
-		(at 247.65 269.24 0)
+		(at 294.64 288.29 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "33941631-9d0c-4431-968b-23159d82753c")
 	)
@@ -33270,7 +33270,7 @@
 		(uuid "3fe52364-304c-4c8f-840f-c0be860406bc")
 	)
 	(label "RA10"
-		(at 196.85 269.24 0)
+		(at 196.85 271.78 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -33391,7 +33391,7 @@
 		(uuid "4394a3b7-41fd-400b-87d3-3460b1c968c7")
 	)
 	(label "RA7"
-		(at 196.85 261.62 0)
+		(at 196.85 284.48 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -33402,13 +33402,13 @@
 		(uuid "443291dd-af98-4f27-84da-e9812f3ea9f8")
 	)
 	(label "RA6"
-		(at 196.85 259.08 0)
+		(at 243.84 288.29 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "44769c84-4083-41ec-888f-0f6c34c87b26")
 	)
@@ -33600,7 +33600,7 @@
 		(uuid "4b2b2f24-b957-484a-bf88-cee7ff3a1468")
 	)
 	(label "RD4"
-		(at 243.84 254 180)
+		(at 243.84 251.46 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -33765,7 +33765,7 @@
 		(uuid "56aab211-d54f-4a00-b8be-5d71a5e577fe")
 	)
 	(label "MEMA16"
-		(at 196.85 281.94 0)
+		(at 196.85 276.86 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -33842,7 +33842,7 @@
 		(uuid "590f294b-c7f9-42f8-8e06-5177e0b04e35")
 	)
 	(label "RD7"
-		(at 294.64 243.84 180)
+		(at 294.64 259.08 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -33985,7 +33985,7 @@
 		(uuid "5e274625-f7e3-4a9f-91f4-469978b19d8a")
 	)
 	(label "MEMA17"
-		(at 247.65 264.16 0)
+		(at 247.65 292.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -34051,7 +34051,7 @@
 		(uuid "607e336e-2592-42f2-9892-da1fd432cb5e")
 	)
 	(label "RD0"
-		(at 294.64 261.62 180)
+		(at 294.64 246.38 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -34073,7 +34073,7 @@
 		(uuid "6270563e-fab1-42d2-b740-4cb4b88dda43")
 	)
 	(label "RA7"
-		(at 247.65 266.7 0)
+		(at 247.65 243.84 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -34139,7 +34139,7 @@
 		(uuid "659428e5-1e48-47b4-9ba4-84a2493f7c44")
 	)
 	(label "RA12"
-		(at 196.85 274.32 0)
+		(at 196.85 266.7 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -34150,7 +34150,7 @@
 		(uuid "665a193f-318b-4803-bdc7-286b70f3f9fa")
 	)
 	(label "MEMA14"
-		(at 247.65 248.92 0)
+		(at 247.65 289.56 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -34282,7 +34282,7 @@
 		(uuid "6d7fb124-a21d-43ea-9c66-a993872620b0")
 	)
 	(label "MEMA17"
-		(at 196.85 287.02 0)
+		(at 196.85 289.56 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -34337,7 +34337,7 @@
 		(uuid "71781f2f-0250-4379-bb67-8e7702759b14")
 	)
 	(label "RD1"
-		(at 294.64 259.08 180)
+		(at 294.64 243.84 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -34480,13 +34480,13 @@
 		(uuid "7b80b080-ae3e-404e-a0e0-71f508b837f5")
 	)
 	(label "MEMA21"
-		(at 294.64 288.29 180)
+		(at 247.65 264.16 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1 1)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "7ba0a8a7-901f-462d-98f3-df26ef4cdb43")
 	)
@@ -34645,7 +34645,7 @@
 		(uuid "83ca0006-709a-4a76-a825-9b3917e6b6e7")
 	)
 	(label "MEMA16"
-		(at 247.65 246.38 0)
+		(at 247.65 251.46 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -34700,7 +34700,7 @@
 		(uuid "85ead6f5-a392-45a0-8922-70eb70ec007c")
 	)
 	(label "RD0"
-		(at 243.84 243.84 180)
+		(at 243.84 259.08 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -34722,7 +34722,7 @@
 		(uuid "88402c9c-4671-479d-87cd-1aac8084f229")
 	)
 	(label "RD5"
-		(at 243.84 256.54 180)
+		(at 243.84 248.92 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -35008,7 +35008,7 @@
 		(uuid "965d0a76-121c-4459-abfa-bf52d82d96c6")
 	)
 	(label "RA8"
-		(at 196.85 264.16 0)
+		(at 196.85 259.08 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -35019,7 +35019,7 @@
 		(uuid "96a8c3fb-a930-4046-b06d-00899b270c70")
 	)
 	(label "RD7"
-		(at 243.84 261.62 180)
+		(at 243.84 246.38 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -35129,7 +35129,7 @@
 		(uuid "9982a520-0876-4c79-83e1-63de538599d0")
 	)
 	(label "RA10"
-		(at 247.65 259.08 0)
+		(at 247.65 256.54 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -35470,7 +35470,7 @@
 		(uuid "a5727f2b-8834-4507-a767-d1225e867370")
 	)
 	(label "MEMA19"
-		(at 196.85 292.1 0)
+		(at 196.85 281.94 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -35767,7 +35767,7 @@
 		(uuid "afd02ca7-2f46-477c-af4f-4d4d0955f5d8")
 	)
 	(label "RA12"
-		(at 247.65 254 0)
+		(at 247.65 261.62 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -35789,7 +35789,7 @@
 		(uuid "b0867289-07ef-4288-b69d-db4736429683")
 	)
 	(label "MEMA19"
-		(at 247.65 289.56 0)
+		(at 247.65 246.38 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -35932,7 +35932,7 @@
 		(uuid "b57b6043-b0e3-4e40-b193-a093e2443944")
 	)
 	(label "MEMA14"
-		(at 196.85 279.4 0)
+		(at 196.85 292.1 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -36130,7 +36130,7 @@
 		(uuid "bfe8b26b-a60c-4208-afd4-a168fe5391c8")
 	)
 	(label "MEMA18"
-		(at 247.65 292.1 0)
+		(at 247.65 254 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -36207,7 +36207,7 @@
 		(uuid "c1cc0e5b-cbf9-4d6c-9941-c8f3bc29a4c1")
 	)
 	(label "RD2"
-		(at 243.84 248.92 180)
+		(at 243.84 254 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -36955,7 +36955,7 @@
 		(uuid "e3cdc717-5636-45d1-9509-c38f647f7739")
 	)
 	(label "RD6"
-		(at 294.64 246.38 180)
+		(at 294.64 261.62 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -37142,7 +37142,7 @@
 		(uuid "ed021dbd-ab71-4f0f-adb0-f71d58f5e0af")
 	)
 	(label "RD4"
-		(at 294.64 251.46 180)
+		(at 294.64 254 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -37175,7 +37175,7 @@
 		(uuid "ee4cbaec-58cf-4a03-a460-8cfc4930ae0a")
 	)
 	(label "RA9"
-		(at 247.65 261.62 0)
+		(at 247.65 266.7 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -37230,7 +37230,7 @@
 		(uuid "f0ffda1c-12c1-42e5-88e7-21bd0d0c1a1e")
 	)
 	(label "MEMA18"
-		(at 196.85 289.56 0)
+		(at 196.85 274.32 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -37406,7 +37406,7 @@
 		(uuid "f7eed261-ab18-42a7-985b-f60e4705d125")
 	)
 	(label "RD1"
-		(at 243.84 246.38 180)
+		(at 243.84 261.62 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -37450,7 +37450,7 @@
 		(uuid "fb941b16-88fd-4a40-9191-22c947c5f91d")
 	)
 	(label "RD6"
-		(at 243.84 259.08 180)
+		(at 243.84 243.84 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -37472,7 +37472,7 @@
 		(uuid "fc16b453-0b92-4806-94c5-09e6b29cf98e")
 	)
 	(label "RA11"
-		(at 247.65 256.54 0)
+		(at 247.65 259.08 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
