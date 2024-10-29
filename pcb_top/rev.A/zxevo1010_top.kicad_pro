@@ -59,7 +59,16 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "courtyards_overlap|114000001|89000001|05943984-d35c-462a-993a-f41e24e0bc40|7fe278c1-a0fa-4648-9d8a-c6d4369603a4",
+        "courtyards_overlap|158629999|64365590|76d05286-52e2-4852-9bae-ce2942e38af7|ebb08bd6-b3bd-4976-9f37-773e5cb464e2",
+        "courtyards_overlap|176149999|63094487|93430b8c-572b-4e20-882b-b474593e3508|a008bee0-678b-49b9-8a22-8c85c54b1d34",
+        "footprint_type_mismatch|140100000|57200000|7b0bbc66-4bb9-4a1e-8f1b-5eed404f53d4|00000000-0000-0000-0000-000000000000",
+        "text_thickness|168099999|121000000|6c251714-5026-45b1-a0c2-f421f2502bf8|00000000-0000-0000-0000-000000000000",
+        "text_thickness|168099999|121652410|aee4d1aa-adc7-4238-bb28-fd92acd1e447|00000000-0000-0000-0000-000000000000",
+        "text_thickness|168099999|122926205|90a62624-ab50-4c20-bc6b-4a7b9f23350e|00000000-0000-0000-0000-000000000000",
+        "text_thickness|168099999|124200000|a33e4b7c-3e76-4dcd-9ab5-1140a52849d3|00000000-0000-0000-0000-000000000000"
+      ],
       "meta": {
         "version": 2
       },
@@ -511,7 +520,7 @@
       },
       {
         "bus_width": 6,
-        "clearance": 0.2,
+        "clearance": 0.15,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -521,7 +530,7 @@
         "name": "Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.25,
+        "track_width": 0.2,
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6

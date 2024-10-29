@@ -4504,8 +4504,8 @@
 				)
 			)
 		)
-		(property "Value" "74LVC2G04DB"
-			(at 2.25 0 180)
+		(property "Value" "SN74LVC2G04DBVR"
+			(at 2.05 -2.15 180)
 			(layer "F.Fab")
 			(uuid "060e1498-a06f-4ed6-bd2d-5e07d0264106")
 			(effects
@@ -4560,8 +4560,8 @@
 			(uuid "f446762f-80ad-43de-97fb-8cf4467183ee")
 			(effects
 				(font
-					(size 1.1 0.75)
-					(thickness 0.14)
+					(size 1.1 0.6)
+					(thickness 0.11)
 				)
 			)
 		)
@@ -8445,8 +8445,8 @@
 				)
 			)
 		)
-		(property "Value" "74LVC2G04DB"
-			(at 3.1 2.9 0)
+		(property "Value" "SN74LVC2G04DBVR"
+			(at 5.15 2.9 0)
 			(layer "F.Fab")
 			(uuid "ee023b6a-5fcb-4bda-adcb-7b74cc9bdacb")
 			(effects
@@ -8501,8 +8501,8 @@
 			(uuid "9560fe46-11a7-4fb6-998e-436c524df7e6")
 			(effects
 				(font
-					(size 1.1 0.8)
-					(thickness 0.14)
+					(size 1.1 0.6)
+					(thickness 0.11)
 				)
 			)
 		)
@@ -9464,7 +9464,7 @@
 				)
 			)
 		)
-		(property "Value" "74LVC2G04DB"
+		(property "Value" "SN74LVC2G04DBVR"
 			(at 0.025 3.25 0)
 			(layer "F.Fab")
 			(uuid "94f41678-1dcd-4f9e-9929-7812a32778b8")
@@ -9520,8 +9520,8 @@
 			(uuid "9ba2ffa3-0f03-4648-86cb-f3fe37bab0ec")
 			(effects
 				(font
-					(size 1.1 0.8)
-					(thickness 0.14)
+					(size 1.1 0.6)
+					(thickness 0.11)
 				)
 			)
 		)
@@ -13519,7 +13519,7 @@
 				)
 			)
 		)
-		(property "Value" "74LVC2G04DB"
+		(property "Value" "SN74LVC2G04DBVR"
 			(at 0 2.9 90)
 			(layer "F.Fab")
 			(uuid "1453b009-7913-4f14-b86a-60f8ad98a3d9")
@@ -13575,8 +13575,8 @@
 			(uuid "796abd81-3401-42ad-8e5d-8d2e74bbc182")
 			(effects
 				(font
-					(size 1.1 0.8)
-					(thickness 0.14)
+					(size 1.1 0.6)
+					(thickness 0.11)
 				)
 			)
 		)
@@ -22173,7 +22173,7 @@
 			)
 		)
 		(property "Value" "LP2985-3.3"
-			(at 2.4 -2.9 0)
+			(at 2.2 -2.9 0)
 			(layer "F.Fab")
 			(uuid "e569306f-a0ac-4570-98ac-2c19474891b3")
 			(effects
@@ -82708,7 +82708,8 @@
 			(font
 				(face "ZX Spectrum 7")
 				(size 0.97 0.97)
-				(thickness 0.2)
+				(thickness 0.194)
+				(bold yes)
 			)
 		)
 		(render_cache "PCB Rev.A Eugene Lozovoy 2024" 0
@@ -82950,7 +82951,8 @@
 			(font
 				(face "ZX Spectrum 7")
 				(size 0.97 0.97)
-				(thickness 0.2)
+				(thickness 0.194)
+				(bold yes)
 			)
 		)
 		(render_cache "Original design by NedoPC" 0
@@ -83167,7 +83169,8 @@
 			(font
 				(face "ZX Spectrum 7")
 				(size 0.97 0.97)
-				(thickness 0.2)
+				(thickness 0.194)
+				(bold yes)
 			)
 		)
 		(render_cache "VDAC2 design by TSL" 0
