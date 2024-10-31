@@ -1,15 +1,34 @@
 ## Kicad
-*-lib-table
-*-cache
-*-rescue.lib
-*.sch-bak
-*.kicad_pcb-bak
-*.dcm
-*.kicad_prl
-pcb*/**/*-backups/
+pcb*/**/*-lib-table
+pcb*/**/*-cache
+pcb*/**/*-rescue.lib
+pcb*/**/*.kicad_sch-bak
+pcb*/**/*.kicad_pcb-bak
+pcb*/**/*.kicad_prl
+pcb*/**/*.lck
+pcb*/**/*.dcm
 pcb*/**/*.xml
+pcb*/**/*-backups/
 pcb*/**/out/
-pcb*/rev*~*/ 
+pcb*/rev*~*/
+
+## Quartus
+cpld*/rtl/*.bak
+cpld*/syn/db/
+cpld*/syn/incremental_db/
+cpld*/syn/output/
+cpld*/syn/*.dpf
+cpld*/syn/*.cdf
+cpld*/syn/*.qws
+cpld*/syn/*.srf
+cpld*/tb/work/
+cpld*/tb/*.vcd
+cpld*/tb/*.gtkw
+cpld*/tb/*_pwl.txt
+cpld*/tb/*.raw
+cpld*/tb/*.net
+cpld*/tb/*.log
+cpld*/tb/111.txt
 
 ## Etc.
 refs/
