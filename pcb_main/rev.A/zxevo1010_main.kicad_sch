@@ -36653,7 +36653,7 @@
 		)
 		(uuid f9b4ecd7-c235-411f-a4b5-4ce95314866d)
 	)
-	(text_box "        | IN Vpp | R kOhm | OUT Vpp\nBeeper  | 3.3    | 49     | 0.6\nFT812   | 3.3    | 30     | 0.9\nSAM2695 | 2.8    | 22     | 1.0\nVS1053b | 2.1    | 18     | 1.0\nNeoGS   | 5.9    | 47     | 1.0\nPSG     | 5.9    | 47     | 1.0"
+	(text_box "        | IN Vpp | R kOhm | OUT Vpp\nBeeper  | 3.3    | 49     | 0.6\nFT812   | 3.3    | 30     | 0.9\nSAM2695 | 2.8    | 22     | 1.0\nVS1053b | 2.1    | 18     | 1.0\nNeoGS   | 0.9    | 8.2    | 0.9\nPSG     | 0.9    | 8.2    | 0.9"
 		(exclude_from_sim no)
 		(at 542.29 299.72 0)
 		(size 29.21 13.97)
@@ -36830,9 +36830,9 @@
 		)
 		(uuid "78a8bc37-f413-4013-ba8b-efe7c81e2dc1")
 	)
-	(text "Possible opamp replacements:\n- MCP6002T-I/SN\n- TP8542ARZ"
+	(text "Possible opamp replacements:\n- AD8606ARZ\n- OPA2348AIDR\n- MCP6022T-I/SN\n- MCP6002T-I/SN\n- TP8606ARZ\n- TP8542ARZ"
 		(exclude_from_sim no)
-		(at 518.16 257.048 0)
+		(at 524.51 254.508 0)
 		(effects
 			(font
 				(size 1 1)
@@ -49153,7 +49153,7 @@
 		(dnp no)
 		(uuid "313e19aa-710a-42c0-acc0-fa80527fdd5b")
 		(property "Reference" "R74"
-			(at 382.7781 375.1591 0)
+			(at 382.778 374.65 0)
 			(effects
 				(font
 					(size 1 1)
@@ -49162,7 +49162,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 382.7781 377.4578 0)
+			(at 382.778 376.9487 0)
 			(effects
 				(font
 					(size 1 1)
@@ -51445,7 +51445,7 @@
 				)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "10n"
 			(at 209.55 491.49 0)
 			(effects
 				(font
@@ -53193,7 +53193,7 @@
 				)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "10n"
 			(at 257.81 491.49 0)
 			(effects
 				(font
@@ -64309,7 +64309,7 @@
 				)
 			)
 		)
-		(property "Value" "100n"
+		(property "Value" "10n"
 			(at 161.29 491.49 0)
 			(effects
 				(font
@@ -69652,7 +69652,7 @@
 		(dnp no)
 		(uuid "c6a163a9-1272-475f-8dd4-fa5dbf1d7bb7")
 		(property "Reference" "R75"
-			(at 390.3981 375.1591 0)
+			(at 390.398 374.65 0)
 			(effects
 				(font
 					(size 1 1)
@@ -69661,7 +69661,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 390.3981 377.4578 0)
+			(at 390.398 376.9487 0)
 			(effects
 				(font
 					(size 1 1)
@@ -70771,7 +70771,7 @@
 		(dnp no)
 		(uuid "cff11b4b-698b-4db2-bcdb-c0369f4daf5b")
 		(property "Reference" "R73"
-			(at 375.1581 375.1591 0)
+			(at 375.158 374.65 0)
 			(effects
 				(font
 					(size 1 1)
@@ -70780,7 +70780,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 375.1581 377.4578 0)
+			(at 375.158 376.9487 0)
 			(effects
 				(font
 					(size 1 1)
