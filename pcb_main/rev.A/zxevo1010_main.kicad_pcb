@@ -2874,6 +2874,28 @@
 				(justify left)
 			)
 		)
+		(property "K" "K"
+			(at -0.76 2.15 0)
+			(layer "F.SilkS")
+			(uuid "5f3c1895-2ff2-487a-9b5a-9a864cea67af")
+			(effects
+				(font
+					(size 1.1 0.6)
+					(thickness 0.14)
+				)
+			)
+		)
+		(property "A" "A"
+			(at 3.24 2.15 0)
+			(layer "F.SilkS")
+			(uuid "2270a02a-40e5-40b6-972a-941b03abbb81")
+			(effects
+				(font
+					(size 1.1 0.6)
+					(thickness 0.14)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/7a2ff5d6-c068-4fe1-be7f-dcaf94f09902")
 		(sheetname "Root")
@@ -6390,6 +6412,28 @@
 			(effects
 				(font
 					(size 1.1 0.7)
+					(thickness 0.14)
+				)
+			)
+		)
+		(property "K" "K"
+			(at -0.75 2.15 0)
+			(layer "F.SilkS")
+			(uuid "1b4b0788-e7a1-4dcd-a756-00510b147ee5")
+			(effects
+				(font
+					(size 1.1 0.6)
+					(thickness 0.14)
+				)
+			)
+		)
+		(property "A" "A"
+			(at 3.25 2.15 0)
+			(layer "F.SilkS")
+			(uuid "d4a6de91-3b39-498e-a00c-c06eebe143f2")
+			(effects
+				(font
+					(size 1.1 0.6)
 					(thickness 0.14)
 				)
 			)
@@ -19978,6 +20022,28 @@
 				)
 			)
 		)
+		(property "K" "K"
+			(at -0.7875 2.15 0)
+			(layer "F.SilkS")
+			(uuid "2a93fda4-7b59-4d72-9117-c142aa3e47e1")
+			(effects
+				(font
+					(size 1.1 0.6)
+					(thickness 0.14)
+				)
+			)
+		)
+		(property "A" "A"
+			(at 3.2625 2.15 0)
+			(layer "F.SilkS")
+			(uuid "d6165489-f0d8-4e16-beb7-d790b69a0db4")
+			(effects
+				(font
+					(size 1.1 0.6)
+					(thickness 0.14)
+				)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/f75ab441-90e7-4342-bcb2-226a1bad416d")
 		(sheetname "Root")
@@ -21733,7 +21799,7 @@
 				)
 			)
 		)
-		(property "Value" "11.059 Mhz"
+		(property "Value" "11.059 MHz"
 			(at 2.775 0 180)
 			(layer "F.Fab")
 			(uuid "b49a1d77-6268-468d-bfa5-113eaf7a9455")
@@ -82156,6 +82222,19 @@
 					(xy 162.679413 113.558385) (xy 164.414515 113.558385)
 				)
 			)
+		)
+	)
+	(gr_text "VDAC's CPLD"
+		(at 152.8875 66.0317 0)
+		(layer "F.SilkS")
+		(uuid "4d02743c-92e2-4d9c-97bf-a1279a9d49f5")
+		(effects
+			(font
+				(size 1.1 0.8)
+				(thickness 0.14)
+				(bold yes)
+			)
+			(justify top)
 		)
 	)
 	(gr_text "PCB Rev.${REVISION} Eugene Lozovoy 2024"

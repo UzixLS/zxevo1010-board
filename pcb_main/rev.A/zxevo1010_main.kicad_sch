@@ -55035,7 +55035,7 @@
 				)
 			)
 		)
-		(property "Value" "11.059 Mhz"
+		(property "Value" "11.059 MHz"
 			(at 52.07 303.53 0)
 			(effects
 				(font
