@@ -47478,7 +47478,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "PJ-320"
+		(property "Value" "PJ-322"
 			(at 461.137 169.9514 0)
 			(effects
 				(font
@@ -47487,7 +47487,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "my:PJ-320A_D"
+		(property "Footprint" "my:PJ-322"
 			(at 462.28 175.26 0)
 			(effects
 				(font
@@ -49846,7 +49846,7 @@
 				)
 			)
 		)
-		(property "Value" "LP2985-3.3"
+		(property "Value" "TPS7A2033PDBVR"
 			(at 149.86 504.444 0)
 			(effects
 				(font
@@ -49890,11 +49890,11 @@
 				(hide yes)
 			)
 		)
-		(property "ValueAlt" "LD3985M33R"
+		(property "ValueAlt" "NCP114ASN330T1G, LP2985-3.3, LD3985M33R"
 			(at 149.606 506.222 0)
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 				)
 			)
 		)
@@ -50594,7 +50594,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "7a581802-b2a0-40b1-9be5-fa55ca2ec46c")
 		(property "Reference" "C49"
 			(at 165.735 513.08 0)
@@ -55614,7 +55614,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "9b2f55c2-7e12-4ff0-8a00-a0b612099762")
 		(property "Reference" "C52"
 			(at 213.995 513.08 0)
@@ -60313,7 +60313,7 @@
 				)
 			)
 		)
-		(property "Value" "LP2985-3.3"
+		(property "Value" "TPS7A2033PDBVR"
 			(at 198.12 504.444 0)
 			(effects
 				(font
@@ -60357,11 +60357,11 @@
 				(hide yes)
 			)
 		)
-		(property "ValueAlt" "LD3985M33R"
+		(property "ValueAlt" "NCP114ASN330T1G, LP2985-3.3, LD3985M33R"
 			(at 197.866 506.222 0)
 			(effects
 				(font
-					(size 1 1)
+					(size 0.7 0.7)
 				)
 			)
 		)
@@ -63541,7 +63541,7 @@
 		(dnp no)
 		(uuid "daa3a811-b394-485a-8fc8-ac35b659b25d")
 		(property "Reference" "U4"
-			(at 254.254 98.044 0)
+			(at 254.254 97.282 0)
 			(effects
 				(font
 					(size 1 1)
@@ -63549,8 +63549,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "MAX809LEUR"
-			(at 254.254 99.822 0)
+		(property "Value" "MAX809MEUR"
+			(at 254.254 99.06 0)
 			(effects
 				(font
 					(size 1 1)
@@ -63583,6 +63583,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "ValueAlt" "STM809MWX6F, ADM809MART, TCM809MENB713, TPV809M, CAT809MTBI, CBM809MST3, LM809M3-4.38, APX809S-44SA, SGM809-MXN3"
+			(at 269.494 100.584 0)
+			(effects
+				(font
+					(size 0.3 0.3)
+				)
 			)
 		)
 		(pin "1"
