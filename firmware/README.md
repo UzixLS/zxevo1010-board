@@ -18,12 +18,12 @@ Link: http://nedopc.com/zxevo/zxevo.php
 ### Test & Service
 - zxevo_fw_tns_vdac2.bin
 
-Link: https://github.com/tslabs/zx-evo/blob/master/pentevo/test_n_service/trunk/zxevo_fw_tns_vdac2.bin
+Link: https://github.com/tslabs/zx-evo/blob/master/pentevo/test_n_service/trunk/
 
 ### BaseConf + TSConf
 - zxevo_fw_vdac2.bin
 
-Link: https://github.com/tslabs/zx-evo/blob/master/pentevo/avr/current/default/zxevo_fw_vdac2.bin
+Link: https://github.com/tslabs/zx-evo/blob/master/pentevo/avr/current/default/
 
 
 ## ROM
@@ -38,6 +38,11 @@ Install on top of BaseConf
 
 Link: https://github.com/tslabs/zx-evo/tree/master/pentevo/rom/bin
 
+
+## VDAC CPLD firmware
+- ide-video.pof
+
+Link: https://github.com/tslabs/zx-evo/blob/master/pentevo/vdac/vdac2/cpld/output_files/
 
 
 # Top PCB
@@ -54,4 +59,4 @@ Link: http://nedopc.com/gs/ngs.php
 Link: http://nedopc.com/gs/ngs.php
 
 ## PSG CPLD firmware
--
+- psg-sound.pof
