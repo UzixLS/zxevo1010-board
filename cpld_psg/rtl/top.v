@@ -92,6 +92,20 @@ assign ymd = ~ymwr_n? zxd : 8'bzzzzzzzz;
 
 
 
+/* TURBO SOUND FM IO PORTS */
+reg ym_io_reg_en;
+
+always @(posedge clk) begin
+    if (!rst_n) begin
+        ym_io_reg_en <= 1'b0;
+    end
+    else if (port_fffd && ioreq_wr) begin
+        ym_io_reg_en <= zxd == 8'hE || zxd == 8'hF;
+    end
+end
+
+
+
 /* MIDI */
 reg midi_ext;
 assign midi_rst_n = zxres_n & ~midi_ext;
@@ -147,7 +161,7 @@ end
 
 
 /* BUS CONTROLLER */
-assign zxd = ioreq_rd && port_fffd? ymd : 8'bzzzzzzzz;
+assign zxd = ioreq_rd && port_fffd? ym_io_reg_en? 8'b11111111 : ymd : 8'bzzzzzzzz;
 
 
 endmodule
