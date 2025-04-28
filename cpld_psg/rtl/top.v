@@ -33,12 +33,15 @@ wire rst_n = zxres_n;
 
 // n_iorq are useless in zxevo :(
 // so we're detecting n_iorq cycle by n_rd/n_wr signal asserted without n_m1/n_mreq
-reg ioreq;
-always @(negedge clk) begin
-    ioreq <= (zxrd_n == 1'b0 || zxwr_n == 1'b0) && zxm1_n == 1'b1 && zxmreq_n == 1'b1;
+reg ioreq0, ioreq1, ioreq2;
+always @(posedge clk) begin
+    ioreq0 <= (zxrd_n == 1'b0 || zxwr_n == 1'b0) && zxm1_n == 1'b1 && zxmreq_n == 1'b1;
 end
-wire ioreq_rd = ioreq && zxrd_n == 1'b0;
-wire ioreq_wr = ioreq && zxwr_n == 1'b0;
+// two ioreq registers to make timequest happy
+always @(negedge clk) begin
+    ioreq1 <= ioreq0;
+    ioreq2 <= ioreq0;
+end
 
 
 // n_dos are useless in zxevo :(
@@ -78,17 +81,17 @@ always @(posedge clk) begin
         ym_chip_sel <= 0;
         ym_get_stat <= 0;
     end
-    else if (port_fffd && ioreq_wr && zxd[7:4] == 4'b1111) begin
+    else if (port_fffd && ioreq1 && ~zxwr_n && zxd[7:4] == 4'b1111) begin
         ym_chip_sel <= zxd[0];
         ym_get_stat <= ~zxd[1];
     end
 end
 
-assign ymrd_n = ~ioreq_rd;
-assign ymwr_n = ~ioreq_wr;
+assign ymrd_n = ~(ioreq1 && ~zxrd_n);
+assign ymwr_n = ~(ioreq1 && ~zxwr_n);
 assign ymrst_n = zxres_n;
 assign ymck = clk7;
-assign ymd = ~ymwr_n? zxd : 8'bzzzzzzzz;
+assign ymd = ~ymrd_n? 8'bzzzzzzzz : zxd;
 
 
 
@@ -99,7 +102,7 @@ always @(posedge clk) begin
     if (!rst_n) begin
         ym_io_reg_en <= 1'b0;
     end
-    else if (port_fffd && ioreq_wr) begin
+    else if (port_fffd && ioreq1 && ~zxwr_n) begin
         ym_io_reg_en <= zxd == 8'hE || zxd == 8'hF;
     end
 end
@@ -118,10 +121,10 @@ always @(posedge clk) begin
         midi_reg_en <= 1'b0;
         midi_ext <= 1'b0;
     end
-    else if (port_fffd && ioreq_wr) begin
+    else if (port_fffd && ioreq2 && ~zxwr_n) begin
         midi_reg_en <= zxd == 8'hE;
     end
-    else if (port_bffd && ioreq_wr && midi_reg_en) begin
+    else if (port_bffd && ioreq2 && ~zxwr_n && midi_reg_en) begin
         if (!midi_data)
             midi_ext <= midi_sense;
         midi_data <= zxd[2];
@@ -139,7 +142,7 @@ always @(posedge clk) begin
         sd_ch2 <= 0;
         sd_ch3 <= 0;
     end
-    else if (ioreq_wr && !rom_m1_access) begin
+    else if (ioreq1 && ~zxwr_n && !rom_m1_access) begin
         case (zxal)
         8'h0F: sd_ch0 <= zxd;
         8'h1F: sd_ch1 <= zxd;
@@ -161,7 +164,7 @@ end
 
 
 /* BUS CONTROLLER */
-assign zxd = ioreq_rd && port_fffd? ym_io_reg_en? 8'b11111111 : ymd : 8'bzzzzzzzz;
+assign zxd = ioreq1 && ~zxrd_n && port_fffd? ym_io_reg_en? 8'b11111111 : ymd : 8'bzzzzzzzz;
 
 
 endmodule
