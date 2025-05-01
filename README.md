@@ -1,5 +1,5 @@
-## ZX-EVO.1010
-10x10cm PCB variant of ZX-Evolution project
+## ZXEVO.1010
+10x10cm 2-layer PCB variant of [ZX Evolution](http://nedopc.com/zxevo/zxevo.php) project
 
 [![photo](images/thumb.rev.A.front.webp)](images/rev.A.front.webp?raw=true)
 [![photo](images/thumb.rev.A.back.webp)](images/rev.A.back.webp?raw=true)
@@ -10,6 +10,8 @@
 [![photo](images/thumb.rev.A.two_pcbs.webp)](images/rev.A.two_pcbs.webp?raw=true)
 [![photo](images/thumb.rev.A.side.webp)](images/rev.A.side.webp?raw=true)
 
+Some random photos: [link](https://cloud.err200.net/index.php/s/73TR85tYZkMm8Ax?path=%2Fzxevo1010)
+
 
 Tech specs:
 - Fully compatible with ZX Evolution revC
@@ -17,11 +19,11 @@ Tech specs:
 - PS/2 keyboard and mouse ports
 - VGA video output
 - VDAC2
-- TSFM
-- NeoGS
-- SounDrive
+- TSFM (mono output) powered by 2xYMF288
+- [NeoGS](http://nedopc.com/gs/ngs.php)
+- SounDrive (4-channel stereo covox)
 - MIDI onboard synthesizer and output for external synthesizer
-- WiFi (ZiFi)
+- WiFi ([ZiFi](http://zifi.vtrd.in/))
 - RTC
 - Tape input via 3.5 jack
 - 1xDB-9 port for Sega-compatible joysticks
@@ -57,7 +59,7 @@ Tech specs:
 ### Useful software
 * NedoOS (BaseConf): http://nedoos.ru/
 * Wild Commander (TSConf): https://forum.tslabs.info/viewtopic.php?f=26&t=143
-* ZiFi WiFi client TSConf: http://zifi.vtrd.in/
+* ZiFi WiFi client (TSConf): http://zifi.vtrd.in/
 * TSConf software library: https://prods.tslabs.info/
 * Joystick configuration utility (TSConf): https://github.com/tslabs/zx-evo/tree/master/pentevo/soft/avrconf
 
