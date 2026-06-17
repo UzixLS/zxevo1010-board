@@ -1,14 +1,14 @@
 ## ZXEVO.1010
 10x10cm 2-layer PCB variant of [ZX Evolution](http://nedopc.com/zxevo/zxevo.php) project
 
-[![photo](images/thumb.rev.A.front.webp)](images/rev.A.front.webp?raw=true)
-[![photo](images/thumb.rev.A.back.webp)](images/rev.A.back.webp?raw=true)
+[![photo](images/thumb.rev.A.front.webp)](images/rev.A.front.webp)
+[![photo](images/thumb.rev.A.back.webp)](images/rev.A.back.webp)
 
-[![photo](images/thumb.rev.A.top_1.webp)](images/rev.A.top_1.webp?raw=true)
-[![photo](images/thumb.rev.A.top_2.webp)](images/rev.A.top_2.webp?raw=true)
+[![photo](images/thumb.rev.A.top_1.webp)](images/rev.A.top_1.webp)
+[![photo](images/thumb.rev.A.top_2.webp)](images/rev.A.top_2.webp)
 
-[![photo](images/thumb.rev.A.two_pcbs.webp)](images/rev.A.two_pcbs.webp?raw=true)
-[![photo](images/thumb.rev.A.side.webp)](images/rev.A.side.webp?raw=true)
+[![photo](images/thumb.rev.A.two_pcbs.webp)](images/rev.A.two_pcbs.webp)
+[![photo](images/thumb.rev.A.side.webp)](images/rev.A.side.webp)
 
 Some random photos: [link](https://cloud.err200.net/index.php/s/73TR85tYZkMm8Ax?path=%2Fzxevo1010)
 
