@@ -1,0 +1,1 @@
+- Add 4.7 kΩ resistor between pins 2 and 3 of U13 (74LVC2G04) to fix audio noise.

@@ -34,7 +34,7 @@ Tech specs:
 ### Changelog
 #### Main PCB
 * Rev.A - first release
-* Rev.A1:
+* Rev.A1: - see [ERRATA](pcb_main/rev.A1/ERRATA.txt)!
     * enlarged ACEX's footprint
     * fixed IO led always on in baseconf - added C92 and D7
     * changed R66 from 390Ω to 2.2kΩ to reduce power led bightness
