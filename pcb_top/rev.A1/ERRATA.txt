@@ -1,0 +1,2 @@
+- FM audio output may be clipped. To prevent clipping, replace R65, R66, R67, and R68 with 8–15 kOhm resistors.
+  Note: This modification also reduces the PSG output level. This trade-off is unavoidable due to a fundamental limitation of the YMF288.

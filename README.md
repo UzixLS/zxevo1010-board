@@ -44,7 +44,7 @@ Tech specs:
 
 #### Top PCB
 * Rev.A - first release
-* Rev.A1:
+* Rev.A1: - see [ERRATA](pcb_top/rev.A1/ERRATA.txt)!
     * added 51Ω R1 and R3 on DAC and MP3 clock signals to fix signal integrity issues
     * changed U9 from SN74LXC8T245PWR (which is unsuitable) to 74LVC245APW
     * changed R7 from 120Ω to 1kΩ to decrease LED brightness
